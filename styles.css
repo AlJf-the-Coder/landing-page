@@ -21,7 +21,7 @@ body {
     padding: 40px 160px;
 }
 
-.hero.section,
+.hero,
 .header,
 .footer {
     background: #1F2937;
@@ -37,9 +37,8 @@ body {
     font-weight: 900;
 }
 
-.hero .secondary,
 .header a,
-.call-to-action .secondary,
+.secondary,
 .footer {
     font-size: 18px;
     color: #E5E7EB;
@@ -76,13 +75,15 @@ a {
     gap: 64px;
 }
 
-.hero .hero-text {
+.hero-text {
     padding: 12px 0;
     flex: 1;
 }
 
 .hero .img-placeholder {
     background-color: grey;
+    font-size: 18px;
+    color: #F9FAF8;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -112,11 +113,6 @@ button {
     font-weight: 700;
 }
 
-.img-placeholder {
-    font-size: 18px;
-    color: #F9FAF8;
-}
-
 .information {
     text-align: center;
 }
@@ -143,7 +139,7 @@ button {
     width: 160px;
 }
 
-.information .info-image {
+.info-image {
     border: 3px solid #3882F6;
     border-radius: 18px;
     height: 160px;
