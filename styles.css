@@ -88,7 +88,7 @@ a {
 }
 
 button,
-.call-to-action {
+.cta-container {
     background-color: #3882F6;
     color: #F9FAF8;
 }
@@ -169,6 +169,15 @@ button {
 
 .call-to-action {
     display: flex;
+    flex-basis: 300px;
+}
+
+.cta-container {
+    margin: auto;
+    padding: 40px 100px;
+    border-radius: 8px;
+    display: flex;
+    flex-grow: 1;
     align-items: center;
     justify-content: space-between;
 }
