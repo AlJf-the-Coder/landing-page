@@ -8,3 +8,49 @@
     padding: 0;
     margin: 0;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 12px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero .content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.information {
+    text-align: center;
+}
+
+.info-container {
+    display: flex;
+    gap: 32px;
+}
+
+.quote p {
+    text-align: right;
+}
+
+div.call-to-action {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
