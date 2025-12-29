@@ -18,10 +18,12 @@ body {
 
 .section {
     flex: 1 0 300px;
+    padding: 20px 160px;
 }
 
 .hero.section {
     flex-basis: 450px;
+    padding-top: 16px;
 }
 
 .hero.section,
@@ -46,13 +48,14 @@ body {
 .hero .logo {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: 900;
 }
 
 
 ul {
     list-style-type: none;
     display: flex;
-    gap: 12px;
+    gap: 20px;
 }
 
 a {
@@ -62,11 +65,26 @@ a {
 .header {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 72px;
 }
 
 .hero .content {
     display: flex;
     justify-content: space-between;
+    gap: 64px;
+}
+
+.hero .hero-text {
+    padding: 12px 0;
+    flex: 1;
+}
+
+.hero .img-placeholder {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
 }
 
 button,
@@ -80,6 +98,7 @@ button {
     border: 1px solid #3882F6;
     border-radius: 6px;
     font-weight: 700;
+    margin-top: 8px;
 }
 
 .call-to-action button {
