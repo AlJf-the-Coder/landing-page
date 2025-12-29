@@ -17,8 +17,8 @@ body {
 }
 
 .section {
-    flex: 1 0 300px;
-    padding: 20px 160px;
+    flex: 1 0 450px;
+    padding: 40px 160px;
 }
 
 .hero.section {
@@ -123,6 +123,7 @@ button {
     color: #1F2937;
     font-size: 36px;
     font-weight: 900;
+    margin-bottom: 48px;
 }
 
 .information p {
@@ -133,7 +134,17 @@ button {
 
 .info-container {
     display: flex;
-    gap: 32px;
+    justify-content: space-evenly;
+}
+
+.info-block {
+    width: 160px;
+}
+
+.information .info-image {
+    border: 3px solid #3882F6;
+    border-radius: 18px;
+    height: 160px;
 }
 
 .quote {
