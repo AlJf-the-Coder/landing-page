@@ -12,6 +12,15 @@
 body {
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
+}
+
+.section {
+    flex: 1 0 300px;
+}
+
+.hero.section {
+    flex-basis: 450px;
 }
 
 ul {
