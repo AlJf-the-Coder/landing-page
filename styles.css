@@ -75,6 +75,17 @@ button,
     color: #F9FAF8;
 }
 
+button {
+    padding: 6px 28px;
+    border: 1px solid #3882F6;
+    border-radius: 6px;
+    font-weight: 700;
+}
+
+.call-to-action button {
+    border: 1px solid #F9FAF8;
+}
+
 .call-to-action .primary {
     font-size: 24px;
     font-weight: 700;
